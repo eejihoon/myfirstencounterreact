@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { SignUp } from "./chapter11/SignUp";
+import Calculator from "./chapter12/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <div>
-    <SignUp />
+    <Calculator />
   </div>
 );
 
