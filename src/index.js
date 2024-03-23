@@ -2,17 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ConfirmButton from "./chapter06/ConfirmButton";
-import ConfirmButtonClassFieldsSyntax from "./chapter06/ConfirmButtonClassFieldsSyntax";
-import ConfirmButtonFunction from "./chapter06/ConfirmButtonFunction";
+import LandingPage from "./chapter09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <div>
-    <ConfirmButton />
-    <ConfirmButtonClassFieldsSyntax />
-    <ConfirmButtonFunction />
+    <LandingPage />
   </div>
 );
 
