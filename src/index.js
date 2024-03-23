@@ -2,14 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import LandingPage from "./chapter09/LandingPage";
-import AttendanceBook from "./chapter10/AttendanceBook";
+import { SignUp } from "./chapter11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <div>
-    <AttendanceBook />
+    <SignUp />
   </div>
 );
 
